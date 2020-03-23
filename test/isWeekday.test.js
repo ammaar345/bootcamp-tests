@@ -10,9 +10,6 @@ describe("Returns true if the day is a weekday.", function() {
         var day="Monday";
     assert.equal(isWeekday(day),true);
 });
-it("Should return true.",function(){ 
-    var day="Wednesday";
-assert.equal(isWeekday(day),true);
-});
+
 
 });

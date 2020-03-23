@@ -1,4 +1,4 @@
-describe("countAllPaarl", function() {
+describe("Count all number plates which are from Paarl.", function() {
   
   
     it("Counted Paarl Plates ",function(){ 

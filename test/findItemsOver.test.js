@@ -1,4 +1,4 @@
-describe("findItemsOver20", function () {
+describe("Find all item with a higher quantitiy than the given threshold.", function () {
 
 
     it("Pears and Banana quantity is greater than 20", function () {

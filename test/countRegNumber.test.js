@@ -1,4 +1,4 @@
-describe("countRegNumber", function() {
+describe("Counts all registration numbers", function() {
   
   
     it("passing",function(){ 

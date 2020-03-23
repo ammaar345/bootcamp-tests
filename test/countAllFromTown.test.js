@@ -1,4 +1,4 @@
-describe("countAllFromTown", function() {
+describe("Count all number plates matching the location given.", function() {
   
   
     it("Successfully counted CF plates",function(){ 

@@ -1,19 +1,19 @@
 describe("Greets the name given.", function () {
 
     it("should greet Mecayle", function () {
-
-        assert.equal(greet("Mecayle"), "Hello, Mecayle");
+var name="Mecayle"
+        assert.equal(greet(name), "Hello, "+name);
         assert.deepEqual(greet("Mecayle"), "Hello, Mecayle" );  
 });
 it("should greet Ammaarah", function () {
-
-    assert.equal(greet("Ammaarah"), "Hello, Ammaarah");
-    assert.deepEqual(greet("Ammaarah"), "Hello, Ammaarah" );  
+var name="Ammaarah"
+    assert.equal(greet(name), "Hello, "+name);
+    assert.deepEqual(greet(name), "Hello, "+name );  
 }); 
   it("should greet John", function () {
-
-    assert.equal(greet("John"), "Hello, John");
-    assert.deepEqual(greet("John"), "Hello, John" );  
+      var name="John";
+    assert.equal(greet(name), "Hello, "+name);
+    assert.deepEqual(greet(name), "Hello, "+name);  
 });
 
 });

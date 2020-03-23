@@ -2,7 +2,7 @@
  // fix this function to make the unit tests pass below
 
   
-  describe("Indicates whether plate is from bellvill or not.", function() {
+  describe("Indicates whether plate is from bellville or not.", function() {
   
   it("passing bellville plate", function() {
      
