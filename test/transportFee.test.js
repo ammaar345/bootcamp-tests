@@ -1,4 +1,4 @@
-describe("transportFee", function() {
+describe("Calculates the transportfee according to work shift.", function() {
   
   
     it("Morning",function(){ 

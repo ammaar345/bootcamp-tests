@@ -12,5 +12,10 @@ var loc="CF"
         var loc="CL";
     assert.deepEqual(countAllFromTown(string,loc),3);
 });
+it("Successfully counted CL plates",function(){ 
+    var string="CK 124,CK 567,CL 345, CJ 456,CL 341";
+    var loc="CK";
+assert.deepEqual(countAllFromTown(string,loc),2);
+});
 
 });

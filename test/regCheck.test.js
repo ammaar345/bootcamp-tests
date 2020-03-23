@@ -1,6 +1,6 @@
 
   
-  describe("regCheck", function() {
+  describe("Checks if the given location matches the plate registration.", function() {
   
   
    it("location matches plate(GP)",function()

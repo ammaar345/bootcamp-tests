@@ -1,4 +1,4 @@
-describe("fromWhere", function() {
+describe("Shows where the number plate is from", function() {
   
   
     it("Bellville",function(){ 

@@ -1,4 +1,4 @@
-describe("totalPhoneBill", function() {
+describe("Calculates the total phone bill.", function() {
   
   
     it("Bill Total Processed",function(){ 

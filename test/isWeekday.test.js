@@ -1,14 +1,18 @@
-describe("isWeekday", function() {
+describe("Returns true if the day is a weekday.", function() {
   
   
-    it("It is not a weekday",function(){ 
+    it("Should return false",function(){ 
        var day="Saturday";
         assert.equal(isWeekday(day),false);
         
     });
-    it("It is a weekday",function(){ 
+    it("Should return true",function(){ 
         var day="Monday";
     assert.equal(isWeekday(day),true);
+});
+it("Should return true.",function(){ 
+    var day="Wednesday";
+assert.equal(isWeekday(day),true);
 });
 
 });
