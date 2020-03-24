@@ -1,17 +1,18 @@
 describe("Calculate how many years ago from todays date to the given date.", function() {
   
   
-    it("The amount of years is 44",function(){ 
+    it("Should return the amount of years as 44",function(){ 
        var year=1976;
         assert.equal(yearsAgo(year),44);
         
     });
 
-    it("The amount of years is 34",function(){ 
+    it("Should return the amount of years as 34",function(){ 
         var year=1986;
          assert.equal(yearsAgo(year),34);
          
-     });    it("The amount of years is 99",function(){ 
+     });  
+       it("Should return the amount of years as 99",function(){ 
         var year=1921;
          assert.equal(yearsAgo(year),99);
          

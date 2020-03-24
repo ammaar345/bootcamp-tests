@@ -6,4 +6,4 @@ function transportFee(shift){
       if (shift==='afternoon'){
       return transportCost="R10"}
       else{return transportCost="free"}
-    }
+    }  
