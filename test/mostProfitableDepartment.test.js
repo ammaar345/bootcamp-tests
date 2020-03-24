@@ -41,7 +41,7 @@ describe("Returns the department which is most profitable.", function () {
     assert.deepEqual(mostProfitableDepartment(salesData), "electronics");
 });
 
-it("Should return plant as the most profitable department",function(){
+it("Should return plants as the most profitable department",function(){
     var salesData = [
         {department: 'hardware', sales: 4500, day: 'Monday'},
         {department: 'plants', sales: 1500, day: 'Monday'},
