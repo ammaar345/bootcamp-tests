@@ -2,7 +2,7 @@
  // fix this function to make the unit tests pass below
 
   
-  describe("Indicates whether plate is from bellville or not.", function() {
+  describe("Indicates whether the number plate is from bellville or not.", function() {
   
   it("Registration plate starting with CY should return true", function() {
      

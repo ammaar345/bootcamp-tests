@@ -1,4 +1,4 @@
-describe("Calculates the total phone bill.", function() {
+describe("Calculates the total phone bill accordingly.", function() {
   
   
     it("Should return the total phone bill for 2 calls and 3 sms's",function(){ 

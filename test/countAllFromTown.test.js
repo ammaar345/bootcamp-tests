@@ -1,4 +1,4 @@
-describe("Count all number plates matching the location given.", function() {
+describe("Counts all number plates matching the location given.", function() {
   
   
     it("Should count 1 number plate that matches CF",function(){ 

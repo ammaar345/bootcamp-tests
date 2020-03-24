@@ -1,4 +1,4 @@
-describe("Count all number plates which are from Paarl.", function() {
+describe("Counts all number plates which are from Paarl.", function() {
   
   
     it("Should count 3 Paarl number plates for number plates starting with CJ ",function(){ 

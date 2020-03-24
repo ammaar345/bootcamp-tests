@@ -1,6 +1,6 @@
 
   
-  describe("Checks if the given location matches the plate registration.", function() {
+  describe("Checks if the given location matches the plate registration given.", function() {
   
   
    it("Should return true if location registration matches the end of the number plate",function()

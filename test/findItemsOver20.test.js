@@ -1,4 +1,4 @@
-describe("Finding Items with a quantity greater than 20", function () {
+describe("Finds items with a quantity greater than 20.", function () {
 
 
     it("Should return pears with the quantity of 37 and bananas with the quantity of 27", function () {

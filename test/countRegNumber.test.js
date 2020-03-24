@@ -1,4 +1,4 @@
-describe("Counts all registration numbers", function() {
+describe("Calculates total of registration numbers present.", function() {
   
   
     it("Should count 2 number plates in total",function(){ 

@@ -1,4 +1,4 @@
-describe("Shows where the number plate is from", function() {
+describe("Shows where the owner of the number plate is from.", function() {
   
   
     it("Plate registration CY should return Bellville"  ,function(){ 
